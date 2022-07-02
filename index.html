@@ -1,0 +1,91 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hallam City Campus</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        font-family: "Roboto", sans-serif;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+        gap: 20px;
+      }
+      h1 {
+        font-size: 1rem;
+        color: #ccc;
+        font-weight: 500;
+      }
+
+      .logo {
+        width: 60%;
+      }
+      .contact {
+        display: flex;
+        gap: 25px;
+      }
+      span {
+        color: #9e9e9e;
+        font-size: 1rem;
+      }
+
+      span i {
+        margin-right: 5px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .logo {
+          width: 90%;
+        }
+
+        .contact {
+          display: flex;
+          gap: 25px;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .dates {
+          font-size: 0.6rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="logo" src="hallam-logo.png" alt="Hallam City Campus" />
+      <h1>Better version of self is in progress...</h1>
+      <div class="contact">
+        <span>
+          <i class="fa-solid fa-location-dot"></i> 14, NEDUNKULAM ROAD, PUTTALAM
+        </span>
+        <span
+          ><i class="fa-solid fa-phone"></i> +94 3222 65744 | +94 717 640411
+        </span>
+      </div>
+      <div>
+        <span class="dates">
+          <i class="fa-solid fa-clock"></i> <strong>MON - THU</strong>: 9:00AM -
+          04:30PM | <strong>SAT - SUN</strong>: 08.30AM - 05.00PM
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
